@@ -7,7 +7,7 @@ namespace Stripe
     public class CustomerInvoiceSettings : StripeEntity<CustomerInvoiceSettings>
     {
         [JsonProperty("custom_fields")]
-        public List<InvoiceCustomField> CustomFields { get; set; }
+        public List<CustomerInvoiceSettingsCustomField> CustomFields { get; set; }
 
         #region Expandable DefaultPaymentMethod
 

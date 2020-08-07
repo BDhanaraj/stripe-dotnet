@@ -6,7 +6,7 @@ namespace Stripe
     public class CustomerInvoiceSettingsOptions : INestedOptions
     {
         [JsonProperty("custom_fields")]
-        public List<InvoiceCustomFieldOptions> CustomFields { get; set; }
+        public List<CustomerInvoiceSettingsCustomFieldOptions> CustomFields { get; set; }
 
         [JsonProperty("default_payment_method")]
         public string DefaultPaymentMethod { get; set; }

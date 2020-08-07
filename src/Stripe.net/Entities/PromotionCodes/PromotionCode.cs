@@ -35,7 +35,6 @@ namespace Stripe
             set => this.InternalCustomer = SetExpandableFieldId(value, this.InternalCustomer);
         }
 
-        ///
         [JsonIgnore]
         public Customer Customer
         {

@@ -42,7 +42,6 @@ namespace Stripe.Checkout
             set => this.InternalCustomer = SetExpandableFieldId(value, this.InternalCustomer);
         }
 
-        ///
         [JsonIgnore]
         public Customer Customer
         {
@@ -85,7 +84,6 @@ namespace Stripe.Checkout
             set => this.InternalPaymentIntent = SetExpandableFieldId(value, this.InternalPaymentIntent);
         }
 
-        ///
         [JsonIgnore]
         public PaymentIntent PaymentIntent
         {
@@ -110,7 +108,6 @@ namespace Stripe.Checkout
             set => this.InternalSetupIntent = SetExpandableFieldId(value, this.InternalSetupIntent);
         }
 
-        ///
         [JsonIgnore]
         public SetupIntent SetupIntent
         {
@@ -141,7 +138,6 @@ namespace Stripe.Checkout
             set => this.InternalSubscription = SetExpandableFieldId(value, this.InternalSubscription);
         }
 
-        ///
         [JsonIgnore]
         public Subscription Subscription
         {

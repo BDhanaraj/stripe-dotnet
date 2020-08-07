@@ -23,7 +23,6 @@ namespace Stripe.Checkout
         [JsonProperty("customer_email")]
         public string CustomerEmail { get; set; }
 
-        ///
         [JsonProperty("line_items")]
         public List<SessionLineItemOptions> LineItems { get; set; }
 
@@ -39,8 +38,6 @@ namespace Stripe.Checkout
         [JsonProperty("payment_intent_data")]
         public SessionPaymentIntentDataOptions PaymentIntentData { get; set; }
 
-        ///
-        ///
         [JsonProperty("payment_method_types")]
         public List<string> PaymentMethodTypes { get; set; }
 

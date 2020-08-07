@@ -61,8 +61,6 @@ namespace Stripe
         [JsonProperty("off_session")]
         public bool? OffSession { get; set; }
 
-        ///
-        ///
         [JsonProperty("payment_behavior")]
         public string PaymentBehavior { get; set; }
 
@@ -79,7 +77,6 @@ namespace Stripe
         [JsonProperty("prorate")]
         public bool? Prorate { get; set; }
 
-        ///
         [JsonProperty("proration_behavior")]
         public string ProrationBehavior { get; set; }
 

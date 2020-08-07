@@ -15,8 +15,6 @@ namespace Stripe
         [JsonProperty("coupon")]
         public string Coupon { get; set; }
 
-        ///
-        ///
         [JsonProperty("default_source")]
         public string DefaultSource { get; set; }
 

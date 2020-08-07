@@ -6,7 +6,7 @@ namespace Stripe
     public class InvoiceSubscriptionItemOptions : INestedOptions, IHasId, IHasMetadata
     {
         [JsonProperty("billing_thresholds")]
-        public SubscriptionItemBillingThresholdsOptions BillingThresholds { get; set; }
+        public InvoiceSubscriptionItemBillingThresholdsOptions BillingThresholds { get; set; }
 
         [JsonProperty("clear_usage")]
         public bool? ClearUsage { get; set; }
@@ -27,7 +27,7 @@ namespace Stripe
         public string Price { get; set; }
 
         [JsonProperty("price_data")]
-        public SubscriptionItemPriceDataOptions PriceData { get; set; }
+        public InvoiceSubscriptionItemPriceDataOptions PriceData { get; set; }
 
         [JsonProperty("quantity")]
         public long? Quantity { get; set; }
